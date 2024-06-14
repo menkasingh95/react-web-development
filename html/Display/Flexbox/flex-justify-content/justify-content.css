@@ -1,0 +1,67 @@
+
+/* justify-contetnt properties applied with flex-direction: row */
+.flexbox-container {
+    display: flex;
+    width: 1000px;
+    border: 5px solid brown;
+    background-color: #d6baa6;
+    flex-direction: row; /* this is default */
+}
+.flexbox-items {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid indianred;
+    background-color: burlywood;
+}
+.justify-content-start {
+    justify-content: start;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.justify-content-evenly {
+    justify-content: space-evenly
+}
+.section2, .section3, .section4 {
+    margin-top: 40px;
+}
+
+/* justify-contetnt properties applied with flex-direction: column */
+.flexbox-container2 {
+    display: flex;
+    width: 500px;
+    height: 350px;
+    border: 3px solid #197f02;
+    background-color: #d6baa6;
+    flex-direction: column;
+}
+
+/* justify-contetnt properties applied with flex-direction: row-reverse */
+.flexbox-container3 {
+    display: flex;
+    width: 1000px;
+    border: 5px solid #cba403;
+    background-color: #d6baa6;
+    flex-direction: row-reverse;
+}
+
+/* justify-contetnt properties applied with flex-direction: column-reverse */
+.flexbox-container4 {
+    display: flex;
+    width: 500px;
+    height: 350px;
+    border: 3px solid brown;
+    background-color: #d6baa6;
+    flex-direction: column-reverse;
+}

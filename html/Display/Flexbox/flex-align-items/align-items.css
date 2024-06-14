@@ -1,0 +1,52 @@
+/* align-items properties applied with flex-direction: row */
+.flexbox-container {
+    display: flex;
+    width: 1000px;
+    height: 130px;
+    border: 5px solid brown;
+    background-color: #d6baa6;
+    flex-direction: row; /* this is default */
+}
+.flexbox-items {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid indianred;
+    background-color: burlywood;
+}
+
+/* .justify-content-start {
+    justify-content: start;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.justify-content-evenly {
+    justify-content: space-evenly
+} */
+
+.align-items-stretch {
+    align-items: stretch;  /* this is default property */
+}
+.align-items-start {
+    align-items: flex-start;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-baseline {
+    align-items: baseline;
+}
