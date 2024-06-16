@@ -22,3 +22,14 @@ xhr.onreadystatechange = function(){
     }
 };
 xhr.send();
+
+
+// fetch API call
+fetch('./employee.json').then(response => 
+    response.json())
+    .then(data => {
+        console.log('Data:', data);
+    })
+    .catch(error => {
+        console.error('Fetching data error:', error);
+    })
